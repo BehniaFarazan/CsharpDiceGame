@@ -12,6 +12,7 @@ namespace ConsoleApp1.controller
 
         static GameController()
         {
+            //SS
             InputValidator inputValidator = new InputValidator();
             Logic logic = new Logic();
         }
