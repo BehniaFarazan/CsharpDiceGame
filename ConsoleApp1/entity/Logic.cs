@@ -48,11 +48,13 @@ namespace ConsoleApp1.entity
             if (isTie())
             {
                 print("There is a tie");
+                Console.ReadLine();
             }
             else
             {
                 //announceTheWinner();
                 print(TextClss.winGameMesg + InputValidator.getPlayerNames()[index]);
+                Console.ReadLine();
             }
         }
 

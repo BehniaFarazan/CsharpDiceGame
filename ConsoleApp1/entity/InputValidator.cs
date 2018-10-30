@@ -29,7 +29,7 @@ namespace ConsoleApp1.entity
         private static String[] playerNames;
 
 
-        public void welcomeMs()
+         public void welcomeMs()
         {
             try
             {
@@ -37,7 +37,9 @@ namespace ConsoleApp1.entity
                 print(TextClss.playernumMesg);
                 //   Scanner scanner = new Scanner(System.in);
                 // playerNum = scanner.nextInt();
-                playerNum = Console.Read();
+                //playernum = Console.ReadLine();
+                playerNum = Convert.ToInt32(Console.ReadLine());
+        
                 playerNames = new String[playerNum];
                 print(TextClss.playerNumber(playerNum));
                 print(TextClss.sepMesgLine);
