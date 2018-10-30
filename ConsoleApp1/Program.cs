@@ -11,6 +11,12 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("test");
+            Console.WriteLine("What is your name?");
+
+            // Get user input
+            string inputName = Console.ReadLine();
+            Console.WriteLine("Your name is "+inputName);
+            Console.ReadLine();
         }
     }
 }
